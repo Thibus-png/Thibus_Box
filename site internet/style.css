@@ -1,0 +1,80 @@
+.menu-haut{
+    display:flex;
+    justify-content: space-between;
+    background-image: url(https://images.photowall.com/products/71364/milky-way-galaxy.jpg?h=699&q=85);
+    margin: 20px;
+}
+.minimenu{
+    margin: 90px;
+    display: flex;
+    font-family: Fjalla One;
+    color: white;
+}
+.minimenu a:hover{
+    text-decoration: double;
+    color: orange;
+}
+img{
+    width: 200px;
+    height: 175px;
+}
+button{
+    margin: 90px;
+}
+.contenu{
+    display: flex;
+    font-family: Fjalla One;
+    align-items: flex-start;
+}
+.categorie{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 2%;
+    border: 3px solid black;
+    height: 438px;
+    width: 150px;
+    font-family: Fjalla One;
+    text-align: center;
+}
+.blockfooter{
+    display: flex;
+    justify-content: space-around;
+    font-family: Fjalla One;
+    border: 3px solid black;
+    
+}
+.description{
+    margin: 10px;
+}
+.carte{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+}
+.banniere{
+    display: flex;
+    justify-content: center;
+}
+.paye{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Fjalla One;
+}
+.excuse{
+    font-family: Fjalla One;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+}
+@media screen and (max-width: 800px) {
+    .menu-haut{
+        width: 20%;
+    }
+    .minimenu{
+        width: 10%;
+    }
+}

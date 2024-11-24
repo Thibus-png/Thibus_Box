@@ -1,0 +1,61 @@
+*{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+}
+body{
+    margin: 80px auto;
+    width: 80%;
+}
+form{
+    border: 2px solid rgba(153,153,153,0.6);
+}
+form > div{
+    margin: 30px 20px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    height: 15px;
+    width: 15%;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+.success{
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+.invalide{
+    border: 1px solid red;
+    background-color: rgb(139,0,0);
+}
+.menu-haut{
+    display:flex;
+    justify-content: space-between;
+    background-image: url(https://images.photowall.com/products/71364/milky-way-galaxy.jpg?h=699&q=85);
+    margin: 20px;
+}
+.minimenu{
+    margin: 90px;
+    display: flex;
+    font-family: Fjalla One;
+    color: white;
+}
+.minimenu a:hover{
+    text-decoration: double;
+    color: orange;
+}
+img{
+    width: 200px;
+    height: 175px;
+}
+.dark_mode{
+    background-color: black;
+    color: white
+}

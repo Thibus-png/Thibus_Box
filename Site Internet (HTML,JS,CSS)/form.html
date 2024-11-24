@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="menu-haut">
+                <img src="C:\Users\penet\Downloads\logoZ2.png"style="width: 16%;">
+            <div class="minimenu">
+                <a href="amenu.html">Menu  </a>
+                <p1>|</p1>
+                <a href="echange.html">   Echanges     </a>
+                <p2>|</p2>
+                <a href="shop.html">   Shop    </a>
+                <p3>|</p3>
+                <a href="collection.html">Ma Collection</a>
+                <p4>|</p4>
+                <a href="form.html">Compte</a>
+                <p5>|</p5>
+                <p id="ouioui">DARK MODE</p>
+            </div>
+        </div>
+    </header>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="pseudo">Comment tu t'appelles ?</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Ton Pseudo">
+        </div>
+        <div>
+            <label for="email">Associe un Email :</label>
+            <input type="email" name="email" id="email" placeholder="Adresse Email">
+        </div>
+        <div>
+            <label for="mdp">Créer un mot de passe (10 caractères) :</label>
+            <input type="password" id="mdp" name="mdp" placeholder="Mot de Passe">
+        </div>
+        <div>
+            <legend>Choisis une race :</legend>
+            <input type="radio" name="race" id="saiyan" value="saiyan">
+            <label for="saiyan">Saiyan</label>
+            <input type="radio" name="race" id="namek" value="namek">
+            <label for="namek">Namek</label>
+            <input type="radio" name="race" id="cyborg" value="cyborg">
+            <label for="cyborg">cyborg</label>
+            <input type="radio" name="race" id="majin" value="majin">
+            <label for="majin">Majin</label>
+        </div>
+        <button type="submit">Rejoindre l'aventure !</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
